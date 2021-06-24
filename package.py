@@ -40,7 +40,7 @@ variants = [
     ["platform-linux", "arch-x86_64", "os-centos-7"],
 ]
 
-uuid = "repository.rez-hdf5"
+uuid = "repository.alembic"
 
 # Pass arguments to REZ build system:
 # rez-build -i -- -DCMAKE_CXX_FLAGS="-D H5_BUILT_AS_DYNAMIC_LIB"
