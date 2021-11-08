@@ -30,7 +30,7 @@ with scope("config") as c:
 
 requires = [
     "hdf5-1.10.0",
-    "openexr-2.2.0",
+    "openexr-2.3.0",
 ]
 
 private_build_requires = [
