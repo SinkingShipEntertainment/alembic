@@ -4,7 +4,9 @@ authors = [
     "Sony Pictures Imageworks"
 ]
 
-version = "1.7.10"
+# NOTE: <alembic_version>.sse.<SSE_version>
+
+version = "1.7.10.sse.1.0.0"
 
 description = \
     """
@@ -30,14 +32,14 @@ with scope("config") as c:
 
 requires = [
     "hdf5-1.10.0",
-    "openexr-2.3.0",
 ]
 
 private_build_requires = [
 ]
 
 variants = [
-    ["platform-linux", "arch-x86_64", "os-centos-7"],
+    ["platform-linux", "arch-x86_64", "os-centos-7", "openexr-2.3.0"],
+    ["platform-linux", "arch-x86_64", "os-centos-7", "openexr-2.4.3"],
 ]
 
 uuid = "repository.alembic"
