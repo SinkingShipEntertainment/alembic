@@ -32,14 +32,15 @@ with scope("config") as c:
 
 requires = [
     "hdf5-1.10.0",
+    "boost-1.76.0",
+    "openexr-3.1.5",
 ]
 
 private_build_requires = [
 ]
 
 variants = [
-    ["platform-linux", "arch-x86_64", "os-centos-7", "openexr-3.1.5", "python-3.7"],
-    ["platform-linux", "arch-x86_64", "os-centos-7", "openexr-3.1.5", "python-3.9"],
+    ["platform-linux", "arch-x86_64", "os-centos-7"],
 ]
 
 uuid = "repository.alembic"
