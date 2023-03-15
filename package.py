@@ -6,7 +6,7 @@ authors = [
 
 # NOTE: <alembic_version>.sse.<SSE_version>
 
-version = "1.7.10.sse.1.0.0"
+version = "1.8.5.sse.1.0.0"
 
 description = \
     """
@@ -38,8 +38,8 @@ private_build_requires = [
 ]
 
 variants = [
-    ["platform-linux", "arch-x86_64", "os-centos-7", "openexr-2.3.0"],
-    ["platform-linux", "arch-x86_64", "os-centos-7", "openexr-2.4.3"],
+    ["platform-linux", "arch-x86_64", "os-centos-7", "openexr-3.1.5", "python-3.7"],
+    ["platform-linux", "arch-x86_64", "os-centos-7", "openexr-3.1.5", "python-3.9"],
 ]
 
 uuid = "repository.alembic"
