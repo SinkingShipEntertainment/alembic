@@ -40,6 +40,7 @@ private_build_requires = [
 variants = [
     ["platform-linux", "arch-x86_64", "os-centos-7", "openexr-2.3.0"],
     ["platform-linux", "arch-x86_64", "os-centos-7", "openexr-2.4.3"],
+    ["platform-linux", "arch-x86_64", "os-centos-7", "openexr-3.1.5"],
 ]
 
 uuid = "repository.alembic"
