@@ -27,6 +27,8 @@ private_build_requires = [
 ]
 
 variants = [
+    ["python-3.7"],
+    ["python-3.9"],
 ]
 
 uuid = "repository.alembic"
