@@ -20,7 +20,7 @@ with scope("config") as c:
 requires = [
     "hdf5-1.10.0",
     "boost-1.76.0",
-    "openexr-3.1.5",
+    "openexr-3.1.12",
 ]
 
 private_build_requires = [
