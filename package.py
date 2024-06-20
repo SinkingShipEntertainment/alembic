@@ -6,7 +6,7 @@ authors = [
 
 # NOTE: <alembic_version>.sse.<SSE_version>
 
-version = "1.8.5.sse.1.0.0"
+version = "1.8.5.sse.2.0.0"
 
 description = \
     """
@@ -19,7 +19,7 @@ with scope("config") as c:
 
 requires = [
     "hdf5-1.10.0",
-    "boost-1.76.0",
+    "boost-1.82.0",
     "openexr-3.1.12",
 ]
 
